@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -14,5 +14,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello Android!"/>
+        android:text="Hello Android!"
+        android:textSize="40sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:drawableTint="#FFFFFF"
+        app:textAllCaps="false" />
 </LinearLayout>
